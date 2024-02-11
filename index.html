@@ -6,15 +6,27 @@
     <title>JS DOME EVENTS</title>
 </head>
 <body>
+    <!-- Option 1: Directly set on the HTML elements -->
     <h1 onclick="console.log('I am clicked')">DOM er aj ke special events.</h1>
     <button onclick="console.log(7)">click Me</button>
     <button type="button" title="This is tools tip" onclick="console.log(65);">Another Button</button>
-    
 
     <br>
-
     <button onclick="document.body.style.backgroundColor='yellow'">Make Yellow</button>
+
+    <!-- option 2 -->
     <button onclick="makeRed()">Make Red</button>
+
+    <!-- option 3-->
+    <button id="make-blue">Make Blue</button>
+    <!-- option 3 another-->
+    <button id="make-purple">Make Purple</button>
+
+    <!-- option 4 -->
+    <button id="make-pink">Make Pink</button>
+
+    <!-- option 4 another -->
+    <button id="make-green">Make Green</button>
 
     <script src="JS/events.js"></script>
     <script>
